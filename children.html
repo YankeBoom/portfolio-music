@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top music</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://libs.cdnjs.net/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="loading-overlay">
+        <div class="loading-text">Загрузка...</div>
+      </div>
+
+    <header class="header">
+        <div class="profile">
+            <img class="profile_img" src="img/profile.jpg" alt="profile">
+            <h1 class="profile_title">Top music</h1>
+        </div>
+
+        <nav class="nav">
+            <ul class="categories-list">
+                <li><a class="nav-link" href="index.html"><i class="fa-solid fa-crown"></i>Топ лучших</a></li>
+                <li><a class="nav-link" href="new.html"><i class="fa-solid fa-star"></i>Новинки</a></li>
+                <li><a class="nav-link active" href="children.html"><i class="fa-brands fa-fly"></i>Для детей</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home">
+            <div class="home-row">
+                <h1 class="home-title">Музыка <br> для детей</h1>
+            </div>
+        </section>
+
+        <section class="audio">
+          <div class="audio-wrap">
+            <div class="audio-block" id="audio-container">
+                <img class="audio-img" src="img/profile.jpg" alt="">
+                <audio class="audio_player" id="audio" src="audio/lubimka.mp3"></audio>
+                <div class="audio-content">
+                    <div class="audio-content_top">
+                        <div class="audio-control">
+                            <button id="play" class="play-btn"><i class="fa-solid fa-play"></i></button>
+                        </div>
+                        <p class="audio-autor">music <br> by autor</p>    
+                    </div>
+                    <div class="audio-content_bottom">
+                        <div class="audio-progress" id="audio-progress">
+                            <div class="progress" id="progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+          </div>
+        </section>
+    </main>
+
+    <i class="fa-solid fa-bars" id="MenuBtn"></i>
+    <script src="js/ajax.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
