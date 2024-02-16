@@ -1,0 +1,33 @@
+@media screen and (max-width: 1050px) {
+    .header {
+        left: -400px;
+    }
+
+    #MenuBtn {
+        display: block;
+    }
+
+    .main {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .home {
+        padding: 30px;
+    }
+
+    .home-title {
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 50px;
+    }
+
+   
+}
+
+@media only screen and (max-width: 550px) {
+    .audio-img {
+        display: none;
+    }
+}
